@@ -6,7 +6,7 @@ import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home/Home'
-import About from './pages/about/about'
+import Projects from './pages/projects/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +16,7 @@ function App() {
      <Navbar/>
      <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
+      <Route path="/projects" element={<Projects/>}/>
 
      </Routes>
      <Footer/>
